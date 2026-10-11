@@ -6,7 +6,6 @@ import {
   X,
   MapPin,
   Phone,
-  Wifi,
   CarFront,
   CookingPot,
   Trees,
@@ -24,7 +23,6 @@ import {
   Sun,
   BedDouble,
 } from 'lucide-react';
-
 import { SITE, whatsappLink } from './config';
 import './styles.css';
 
@@ -241,7 +239,7 @@ function About() {
 }
 
 const amenityList = [
-  { Icon: Wifi, label: 'Free Wi-Fi' },
+   { Icon: BedDouble, label: 'Comfortable Rooms' },
   { Icon: CarFront, label: 'Parking' },
   { Icon: CookingPot, label: 'Home-cooked Food' },
   { Icon: Trees, label: 'Outdoor Seating' },
@@ -642,7 +640,7 @@ function Contact() {
             <div className="socials">
               <a
                 aria-label="Instagram"
-                href={SITE.mapUrl}
+                href={SITE.insta}
                 target="_blank"
                 rel="noreferrer"
               >
@@ -670,7 +668,7 @@ function Contact() {
 
         <div className="footer-meta">
           <span>
-            Privacy Policy&nbsp; | &nbsp;Cancellation Policy
+            Privacy Policy&nbsp;
           </span>
 
           <small>
