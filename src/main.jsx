@@ -256,7 +256,6 @@ function Rooms() {
       features: [
         'Attached Bathroom',
         'Air Conditioning',
-        'Wi-Fi (where available)',
       ],
     },
     {
@@ -266,7 +265,6 @@ function Rooms() {
       features: [
         'Attached Bathroom',
         'Fan',
-        'Wi-Fi (where available)',
       ],
     },
   ];
@@ -441,7 +439,6 @@ function Gallery() {
       <div className="brush-heading">
         <div>
           <h2>Gallery</h2>
-          <p>Moments, spaces and the coastal vibes.</p>
         </div>
 
         <a
